@@ -10,33 +10,26 @@
 
 ## Code Problems
 
-1. Write a function named `sumOfFourAndSix` that returns the sum of all the multiples of 4 **and** 6 from 1 to 1000, including 1 and 1000.
-```
-sumOfFourAndSix() //returns 41832
+1. Write a function `absoluteValue` that **returns** the absolute value of a number. If the value is not a number, it returns `null`. Complete this function **without** using Math.abs() .
 ```
 
-2. Write a function named `oddAndEvenToN` that takes in an integer argument and will console.log if a number is odd or even between 0 and the given arguement. 
-```
-oddAndEvenToN(5)
-// will console.log:
-// "0 is even"
-// "1 is odd"
-// "2 is even"
-// "3 is odd"
-// "4 is even"
-// "5 is odd"
 ```
 
-3. Write a function named `assignGrade` that:
-    - takes one integer argument, a score from 0 to 100.
-    - returns a grade for the score, either "A", "B", "C", "D", or "F".
-    - if the score is from 91-100, the function should return "A"
-    - if the score is from 81-90, the function should return "B"
-    - if the score is from 71-80, the function should return "C"
-    - if the score is from 65-70, the function should return "D"
-    - if the score is less than 65, the function should return "F"
+2. Write a function named `sumOfNotThreeAndFive` that returns the sum of all numbers that are *not* multiples of 3 and multiples of 5 from 1 to 1000.
 ```
-assignGrade(91) // returns "A"
-assignGrade(65)  // returns "D"
-assignGrade(80)  // returns "c"
+sumOfNotThreeAndFive() //returns 333666
+```
+
+
+### Bonus 
+3. Write a function `multiplesOfFourAndSix` that **returns an array** of all positive numbers from 1 to 100 if that number is a multiple of 4 and a mutliple of 6. 
+```
+multiplesOfFourAndSix() // returns [12, 24, 36, 48,60, 72, 84, 96]
+```
+
+4. Write a fucntion named `countMultiplesOfTwo` that takes in an array of integers and returns the number of integers in the array that are multiples of two. 
+```
+countMultiplesOfTwo([1,2,3,4,5,6,7,8,9,10]) // returns 5
+countMultiplesOfTwo([15,23,35,45,67]) // returns 0
+countMultiplesOfTwo([2,6,14]) // returns 3
 ```
