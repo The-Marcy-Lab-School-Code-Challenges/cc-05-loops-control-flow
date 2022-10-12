@@ -23,7 +23,7 @@ allAreEqual(3, 3, 5) // returns "two integers are equal"
 allAreEqual(10, 7, 30) // returns "all are different"
 ```
 
-2. Write a function named `sumOfNotDivisibleByTen` that returns the sum of all numbers 1 to (and including) 1000, that are **not**  mutiples of ten.
+2. Write a function named `sumOfNotDivisibleByTen` that returns the sum of all numbers 1 to (and including) 1000, that are **not** divisible by ten.
 ```
 sumOfNotDivisibleByTen() //returns 450000
 // 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 11 + 12 + 13 + 14 + 15 + 16 + 17 + 18 + 19 + 21 + 22...
