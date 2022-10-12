@@ -31,14 +31,8 @@ sumOfNotThreeAndFive() //returns 333666
 
 
 ### Bonus 
-3. Write a function `multiplesOfFourAndSix` that **returns an array** of all positive numbers from 1 to 100 if that number is a multiple of 4 and a mutliple of 6. 
+3. Write a function `sortFiveNums` that takes in five integer arguments and returns the five integers sorted from greatest to least in an array. Solve this without using any sorting methods, and only using conditional statements. 
 ```
-multiplesOfFourAndSix() // returns [12, 24, 36, 48,60, 72, 84, 96]
-```
-
-4. Write a fucntion named `countMultiplesOfTwo` that takes in an array of integers and returns the number of integers in the array that are multiples of two. 
-```
-countMultiplesOfTwo([1,2,3,4,5,6,7,8,9,10]) // returns 5
-countMultiplesOfTwo([15,23,35,45,67]) // returns 0
-countMultiplesOfTwo([2,6,14]) // returns 3
+sortThreeNums(-14,14,-1,20) //returns [20,14,-1,-14]
+sortThreeNums(2,2,50,300) //returns [300, 50, 2, 2]
 ```
