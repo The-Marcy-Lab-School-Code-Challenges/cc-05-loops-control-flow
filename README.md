@@ -10,29 +10,30 @@
 
 ## Code Problems
 
-1. Write a function named `greaterNum` that:
-  - takes 4 arguments, both numbers.
-  - returns whichever number is the greater (higher) number.
-  - If two arguments are equal, it will return the string "two integers are equal"
-  - If three arguments are equal, it will return the string "three integers are equal"
+1. Write a function named `allAreEqual` that:
+  - takes in 3 integer arguments
   - If all arguments are equal, it will return the string "all integers are equal"
-  - If a given argument is not an integer data type it will return `null`
+  - If two arguements are equal, it will return the string "two integers are equal"
+  - If none of the arguments are equal, it will return the string "all are different"
 ```
-greaterNum(10, 7, 30, 60) //returns 60
-greaterNum(1.14, 1.14, 3, 5) //returns "two integers are equal"
-greaterNum(1.14, 1.14, 1.14, 5) //returns "three integers are equal"
-greaterNum("21", 21, "3", 5) //returns null
+allAreEqual(13, 13, 13) //returns "all integers are equal"
+allAreEqual(3, 3, 5) // returns "two integers are equal"
+allAreEqual(3, 5, 3) // returns "two integers are equal"
+allAreEqual(3, 3, 5) // returns "two integers are equal"
+allAreEqual(10, 7, 30) // returns "all are different"
 ```
 
 2. Write a function named `sumOfNotDivisibleByTen` that returns the sum of all numbers 1 to (and including) 1000, that are **not**  mutiples of ten.
 ```
 sumOfNotDivisibleByTen() //returns 450000
+// 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 11 + 12 + 13 + 14 + 15 + 16 + 17 + 18 + 19 + 21 + 22...
 ```
 
 
 ### Bonus 
-3. Write a function `sortFiveNums` that takes in five integer arguments and returns the five integers sorted from greatest to least in an array. Solve this without using any sorting methods, and only using conditional statements. 
+3. Write a function named `countMultiplesOfThree` that takes in an array of integers and returns the number of integers in the array that are multiples of three. 
 ```
-sortThreeNums(-14,14,-1,20) //returns [20,14,-1,-14]
-sortThreeNums(2,2,50,300) //returns [300, 50, 2, 2]
+countMultiplesOfThree([1,2,3,4,5,6,7,8,9,10]) // returns 3 because 3, 6, and 9 are multiples of three
+countMultiplesOfThree([15,23,35,45,67]) // returns 2 because 15 and 45 are multiples of three
+countMultiplesOfThree([2,6,14]) // returns 1 because 6 is a mutiple of three
 ```
