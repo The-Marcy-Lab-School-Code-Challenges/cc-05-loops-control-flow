@@ -24,9 +24,9 @@ greaterNum(1.14, 1.14, 1.14, 5) //returns "three integers are equal"
 greaterNum("21", 21, "3", 5) //returns null
 ```
 
-2. Write a function named `sumOfNotThreeAndFive` that returns the sum of all numbers that are *not* multiples of 3 and multiples of 5 from 1 to 1000.
+2. Write a function named `sumOfNotDivisibleByTen` that returns the sum of all numbers 1 to (and including) 1000, that are **not**  mutiples of ten.
 ```
-sumOfNotThreeAndFive() //returns 333666
+sumOfNotDivisibleByTen() //returns 450000
 ```
 
 
